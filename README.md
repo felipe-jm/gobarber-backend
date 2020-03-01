@@ -1,12 +1,48 @@
-# GoBarber backend
+<h1 align="center">
+<img alt="GoBarber" src="./images/gobarber.svg" style="font-size: 128px;" />
+<br>
+Bootcamp GoStack GoBarber
+</h1>
 
-_Project developed during the @Rocketseat Bootcamp GoStack 2019._
+<h4 align="center">
+  :octocat: :rocket:
+</h4>
 
----
+# Backend
+
+## :computer: Run it!
+
+```bash
+
+# Install the dependencies
+yarn install
+
+# Set up the docker container for the postgres service
+docker run --name postgres -e POSTGRES_PASSWORD=<database_password> -p 5432:5432 -d postgres
+
+# Set up the docker container for the mongodb service
+sudo docker run --name mongo -p 27017:27017 -d -t mongo
+
+# Set up the docker container for the redis service
+sudo docker run --name redis -p 6379:6379 -d -t redis:alpine
+
+# Copy the .env.example that is in the root of the project, rename it to .env and fill the variables according to your enviroment
+
+# Run migrations to your database
+yarn sequelize db:migrate
+
+# Run the backend server
+yarn dev
+yarn queue
+
+```
+
+## Check the rest of the project! :pray:
 
 ### <a href="https://github.com/Felibread/gobarber-frontend">Frontend</a>
 
+### <a href="https://github.com/Felibread/gobarber-mobile">Mobile</a>
+
 ---
 
-### <a href="#">Mobile (coming soon..)</a>
-
+Made with much :purple_heart: and :muscle: by Felipe Jung :blush: <a href="https://www.linkedin.com/in/felipe-jung/">Talk to me!</a>
