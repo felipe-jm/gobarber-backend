@@ -1,5 +1,5 @@
 <h1 align="center">
-<img alt="GoBarber" src="./images/gobarber.svg" style="font-size: 256px;" />
+<img alt="GoBarber" src="./images/gobarber.svg" width="64px" />
 <br>
 Bootcamp GoStack GoBarber
 </h1>
