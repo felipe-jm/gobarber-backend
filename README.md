@@ -39,9 +39,9 @@ yarn queue
 
 ## Check the rest of the project! :pray:
 
-### <a href="https://github.com/Felibread/gobarber-frontend">Frontend</a>
+### <a href="https://github.com/felipe-jm/gobarber-frontend">Frontend</a>
 
-### <a href="https://github.com/Felibread/gobarber-mobile">Mobile</a>
+### <a href="https://github.com/felipe-jm/gobarber-mobile">Mobile</a>
 
 ---
 
